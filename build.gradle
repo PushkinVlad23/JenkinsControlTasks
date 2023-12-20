@@ -13,6 +13,17 @@ dependencies {
     testImplementation "org.assertj:assertj-core:3.24.2"
 }
 
+task generateJar(type: Jar) {
+    from sourceSets.main.output
+    archiveFileName = "javadoc.jar"
+}
+
+task generateDocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+    classpath += project.files(sourceSets.main.compileClasspath)
+    destinationDir = file('build/docs/javadoc')
+}
+
 group = 'org.douggschwind'
 version = '1.0-SNAPSHOT'
 description = 'Games'
