@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.douggschwind.games.cardgames.common.PlayerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-20T12:37:34" hostname="LAPTOP-P0F8VT7D" time="0.018">
+  <properties/>
+  <testcase name="testPlayerNotEquals()" classname="org.douggschwind.games.cardgames.common.PlayerTest" time="0.011"/>
+  <testcase name="testPlayerEquals()" classname="org.douggschwind.games.cardgames.common.PlayerTest" time="0.002"/>
+  <testcase name="testNewHand()" classname="org.douggschwind.games.cardgames.common.PlayerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

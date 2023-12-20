@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.douggschwind.games.cardgames.common.DeckFactoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-20T12:37:34" hostname="LAPTOP-P0F8VT7D" time="0.029">
+  <properties/>
+  <testcase name="testStandardDeck()" classname="org.douggschwind.games.cardgames.common.DeckFactoryTest" time="0.013"/>
+  <testcase name="testEuchreDeck()" classname="org.douggschwind.games.cardgames.common.DeckFactoryTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
